@@ -16,7 +16,7 @@ git status
 
 agregar archivos al repositorio
 
-git add 
+git add .
 
 
 git commit -m ""
