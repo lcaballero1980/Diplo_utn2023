@@ -1,0 +1,22 @@
+creacion de usuario git (inicial
+
+git config --global user.name ""
+git config --global user.email 
+
+git config --global --list
+
+manual de git
+git config -h
+
+inicializar el repositorio
+git	init
+
+estado del repositorio
+git status
+
+agregar archivos al repositorio
+
+git add .
+
+
+git commit -m ""

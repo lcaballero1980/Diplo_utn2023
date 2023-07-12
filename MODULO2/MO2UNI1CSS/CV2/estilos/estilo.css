@@ -1,0 +1,65 @@
+body{
+    width: 80%;
+    background-color: gray;
+}
+.header{
+    /*Se aplico gradient y bordes redondeados */
+    width: 80%;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+    
+}
+.titulo{
+    /*Se busco en google font chela one*/
+    font-family: 'Chela One', cursive;
+    font-size: 50px;
+    color: red;
+    margin-left: 30%;
+}
+.section{
+    /*se aplico bordes redondeados border-radius*/
+    width: 80%;
+    background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
+    border-radius: 5px;
+}
+.section-foto{
+    margin-left: 50px; 
+    border-radius: 5px;
+}
+
+h2,h4,li,h5 {
+    font-family: 'Chela One', cursive;
+    color: black;
+    font-size: 18px;
+    padding-left: 25px;
+}
+#p1{
+    font-family: 'Chela One', cursive;
+    color: red;
+    text-align: 20px;
+    margin-left: 50px;
+}
+#p2{
+    font-family: 'Chela One', cursive;
+    color: red;
+    text-align: 20px;
+    margin-left: 50px;
+}
+#p3{
+    font-family: 'Chela One', cursive;
+    color: red;
+    text-align: 20px;
+    margin-left: 50px;
+}
+.piedepagina{
+    width: 80%;
+    background-color: aqua;
+    border-radius: 5px;
+    
+}
+.notaalpie{
+    font-family: 'Chela One', cursive;
+    font-size:20px;
+    color: black;
+    padding-left: 20px;
+}
