@@ -11,3 +11,9 @@
     border-radius: 20px;
     border: 5px ;
 }
+div{
+    background-color: yellow;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 3px solid black;
+}
