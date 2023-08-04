@@ -1,0 +1,108 @@
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+    padding: 0;
+    margin: 0;
+}
+header {
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float:left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+.home{
+    text-align: center;
+}
+
+.sh2{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+ 
+}
+.Ofrecemos{
+    width: 500px;
+}
+.imagen_izquierda{
+    display: flex;
+    padding: 50px;
+}
+.imagen_medio{
+    display: flex;
+    padding: 50px;
+    
+}  
+.imagen_derecha{ 
+    display: flex;   
+    padding: 50px;
+    
+}
+
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.cajatexto{
+    width: 600px;
+    height: 100px;
+  
+    
+}
+.cajatexto p{
+    font-size: 25px;
+    color: white;
+}
+.cajaimagen{
+    display: flex;
+    height: 300px;
+   
+    
+}
+.footer {
+    background-color: #333;
+    height: 50px;
+    color: #FFF;    
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
