@@ -1,5 +1,5 @@
 html, body{
-  background-color: bisque;
+  background-color: #fff7e9;
 }
 .layout {
   width: 1200px;
@@ -17,7 +17,7 @@ html, body{
 }
 
 .header-nav{
-  background: indigo;
+  background-color:indigo ;
   display: flex;
   gap: 16px;
   height: 120px;
@@ -27,7 +27,7 @@ html, body{
   padding: 0px 20px;
 }
 
-ul{
+.layout ul{
 
 	float: left;
 	display: flex;
@@ -37,15 +37,14 @@ ul{
 
 }
 
-ul li {
+.layout ul li {
 	list-style: none;
 	margin-left: 62px;
 	margin-top: 27px;
 
-
 }
 
-ul li a{
+.layout ul li a{
   text-decoration: none;
   font-family: arial;
 	color: white;
@@ -56,7 +55,7 @@ ul li a{
 
 }
 
-ul li a:hover{
+.layout ul li a:hover{
 	color:red;
 
 }
@@ -99,11 +98,6 @@ ul li a:hover{
   margin: 50px 70px;
   line-height: 1.5em;
 }
-
-
-
-
-
 /*******************
 galeria
 *********************/
@@ -140,31 +134,28 @@ galeria
 .Servicios{
   display: flex;
   gap: 16px;
-  align-items: center;
 }
 
-.contacto {
-  display: flex;
-  gap: 16px;
+.vias-comunicacion .comunicacion ul li{
+  display: inline-block;
 
-  justify-content: center;
-  align-items: flex-start;
 }
+
+
 
 h2{
   line-height: 1.5em;
 }
-
 /*pie de pagina*/
 .footer {
-  background: indigo;
+  background: #CCCCCC;
   grid-area: footer;
   gap: 16px;
   height: 80px;
 }
 
 .footer .piedepagina{
-  color: white;
+  color: white ;
   text-align: center;
   margin: 50px 70px;
   line-height: 1.5em;
