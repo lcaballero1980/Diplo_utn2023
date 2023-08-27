@@ -1,0 +1,158 @@
+/* font-family: 'Poppins', sans-serif; */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: white;
+}
+
+.holder{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .holder .titulo{
+    
+    font-style: italic;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+header .holder img{
+    width: 40px;
+}
+
+nav{
+    background-color: #333;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blueviolet;
+}
+
+nav ul li a.activo{
+    background-color: #4c76a5;
+}
+
+
+/* main */
+
+main .img-frente{
+    text-align: center;
+}
+div.experiencia{
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+  
+  div.experiencia img.izquierda {
+    float: left;
+    margin-right: 15px;
+    border: 10px solid indigo;
+  }
+  
+  div.experiencia img.derecha {
+    float: right;
+    margin-left: 15px;
+    border: 10px solid indigo;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+
+  /* evento */
+.titulo-eventos{
+    text-align: center;
+
+}
+
+.eventos{
+    width: 100%;
+    height: 620px;
+    text-align: center;
+}
+
+.eventos.img{
+    display: flex;
+    
+}
+.eventos img{
+    width: 30%;
+    height: 300px;
+}
+
+.eventos img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.05);
+    transform: rotate(-1.2deg) scale(1.05);
+    transition: 0.6 ease-out;
+    filter: grayscale(0.9);
+  }
+
+/* servivios */
+.servicio{
+    text-align: center;
+}
+
+/* contacto */
+.contacto{
+    display: flex;
+    gap: 24px;
+}
+
+.contacto div{
+    width: 100%;
+}
+.datos p{
+    font-size: 20px;
+}
+
+.datos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.datos ul li{
+    font-size: 18px;
+}
+
+/* pie de pagina */
+footer{
+    display: block;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
