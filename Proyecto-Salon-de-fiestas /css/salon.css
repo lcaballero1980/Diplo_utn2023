@@ -5,18 +5,20 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F1DAC4;
 }
 header{
-    background-color: white;
+    background-color: #161B33;
 }
 
 .holder{
     max-width: 1200px;
     margin: 0 auto;
+   
 }
 
 header .holder .titulo{
-    
+    color: white;
     font-style: italic;
     font-weight: 600;
     display: flex;
@@ -29,7 +31,7 @@ header .holder img{
 }
 
 nav{
-    background-color: #333;
+    background-color: #161B33;
     
 }
 
@@ -152,7 +154,7 @@ div.experiencia{
 footer{
     display: block;
     margin-bottom: 10px;
-    background-color: #333;
+    background-color: #161B33;
     color: white;
     text-align: center;
 }
