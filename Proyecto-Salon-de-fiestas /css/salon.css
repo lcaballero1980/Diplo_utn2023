@@ -26,6 +26,7 @@ header .holder .titulo{
     align-items: center;
     gap: 25px;
 }
+
 header .holder img{
     width: 40px;
 }
@@ -78,15 +79,27 @@ div.experiencia{
   }
   
   div.experiencia img.izquierda {
+    width: 560px;
+    height: 400px;
     float: left;
     margin-right: 15px;
     border: 10px solid indigo;
+    
   }
   
   div.experiencia img.derecha {
+    width: 560px;
+    height: 400px;
     float: right;
     margin-left: 15px;
     border: 10px solid indigo;
+  }
+  div.experiencia h3, p{
+    padding: 40px 0;
+    text-align: center;
+  }
+  div.experiencia-somos{
+    text-align: center;
   }
   
   div.reset {
