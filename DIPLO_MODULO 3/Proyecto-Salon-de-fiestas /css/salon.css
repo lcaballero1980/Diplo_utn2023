@@ -90,7 +90,8 @@ div.experiencia{
   }
   
   div.reset {
-    clear: both;
+    overflow: hidden;
+    /* clear: both; */
   }
 
   /* evento */
