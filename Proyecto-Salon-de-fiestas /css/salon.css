@@ -71,6 +71,7 @@ nav ul li a.activo{
 
 main .img-frente{
     text-align: center;
+    padding: 10px 0;
 }
 div.experiencia{
     width: 100%;
@@ -111,6 +112,10 @@ div.experiencia{
 .titulo-eventos{
     text-align: center;
 
+}
+
+div.titulo-eventos img{
+    width: 100%;
 }
 
 .eventos{
