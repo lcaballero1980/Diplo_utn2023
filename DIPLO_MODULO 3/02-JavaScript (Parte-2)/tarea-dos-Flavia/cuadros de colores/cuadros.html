@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color de Fondo</title>
+    <link rel="stylesheet" href="cuadros.css">
+</head>
+
+<body>
+
+    <!-- Ejercicio 1:
+Crear un documento html con 3 cuadrados que, al ser clickeados, cambien el color de fondo del documento. Cada cuadrado debera tener un color distinto. -->
+
+
+    <div class="cuadro1" id="square1"></div>
+    <div class="cuadro2" id="square2"></div>
+    <div class="cuadro3" id="square3"></div>
+
+    <script>
+        const cuadradored = document.getElementById("square1");
+        const cuadradogreen = document.getElementById("square2");
+        const cuadradoblue = document.getElementById("square3");
+
+        cuadradored.addEventListener("click", () => {
+            document.body.style.backgroundColor = "red";
+        });
+
+        cuadradogreen.addEventListener("click", () => {
+            document.body.style.backgroundColor = "green";
+        });
+
+        square3.addEventListener("click", () => {
+            document.body.style.backgroundColor = "blue";
+        });
+    </script>
+</body>
+
+</html>
