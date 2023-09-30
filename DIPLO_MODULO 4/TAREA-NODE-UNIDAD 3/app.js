@@ -6,6 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+var acercaRouter = require('./routes/acerca'); 
+
 
 var app = express();
 
@@ -21,6 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/acerca', acercaRouter)
 
 //ejemplo de la profesora
 app.get('/prueba', function(req,res){
@@ -33,12 +36,12 @@ app.get('/home', (req, res) => {
 
 // Ruta 2: Página galeria
 app.get('/galeria', (req, res) => {
-  res.send('Esta es la página "Acerca de" de mi aplicación.');
+  res.send('Esta es la página galeria de mi aplicación.');
 });
 
 // Ruta 3: Página de contacto
 app.get('/contacto', (req, res) => {
-  res.send('Ponte en contacto con nosotros en contact@example.com.');
+  res.send('Ponte en contacto con nosotros');
 });
 
 
