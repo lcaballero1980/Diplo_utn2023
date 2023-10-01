@@ -1,0 +1,47 @@
+/* font-family: 'Poppins', sans-serif; */
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1DAC4;
+}
+header{
+    background-color: #161B33;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+   
+}
+
+header .holder .titulo{
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+header .holder img{
+    width: 40px;
+}
+
+
+
+
+
+
+
+/* pie de pagina */
+footer{
+    display: block;
+    margin-bottom: 10px;
+    background-color: #161B33;
+    color: white;
+    text-align: center;
+}
